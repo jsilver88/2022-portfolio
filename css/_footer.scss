@@ -1,0 +1,39 @@
+.footer {
+  padding: 5rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .social-links {
+      a {
+        background-color: #112d4e;
+        padding: 1rem;
+        margin-left: 1.4rem;
+        color: #64ffda;
+        font-size: 1.6rem;
+        border-radius: 4px;
+        box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+
+        transition: all 0.5s;
+
+        &:hover {
+          background-color: #dbe2ef;
+          color: #112d4e;
+        }
+      }
+    }
+
+    .copyright {
+      margin-top: 3rem;
+      text-transform: capitalize;
+      color: #dbe2ef;
+
+      span {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}

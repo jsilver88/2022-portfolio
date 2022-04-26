@@ -1,0 +1,61 @@
+@media screen and (max-width: 768px) {
+  .modal {
+    h1 {
+      font-size: 3.2rem;
+    }
+
+    .btn-primary {
+      font-size: 1.6rem;
+    }
+  }
+
+  .about {
+    .label-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-wrapper {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .projects {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .contact {
+    .container {
+      .form {
+        width: 40rem;
+      }
+    }
+  }
+
+  .footer {
+    .container {
+      .social-links {
+        display: flex;
+
+        .social-link {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about {
+    .label-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .projects {
+    .project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
