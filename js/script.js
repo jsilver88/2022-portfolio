@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     navbar.style.top = '0'
   } else {
-    navbar.style.top = '-5rem'
+    navbar.style.top = '-6rem'
   }
 })
 

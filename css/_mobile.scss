@@ -47,6 +47,18 @@
 }
 
 @media screen and (max-width: 500px) {
+  .modal {
+    .navbar {
+      .nav-links {
+        .nav-link {
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
   .about {
     .label-container {
       grid-template-columns: 1fr;

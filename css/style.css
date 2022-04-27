@@ -122,7 +122,7 @@ section {
 }
 .modal .navbar {
   position: fixed;
-  top: -5rem;
+  top: -7rem;
   background: #112240;
   box-shadow: 0 1rem 2.5rem -1px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
@@ -473,6 +473,10 @@ section {
   }
 }
 @media screen and (max-width: 500px) {
+  .modal .navbar .nav-links .nav-link span {
+    display: none;
+  }
+
   .about .label-container {
     grid-template-columns: 1fr;
   }
