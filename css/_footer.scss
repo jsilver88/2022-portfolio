@@ -1,4 +1,5 @@
 .footer {
+  margin-top: 15rem;
   padding: 5rem;
 
   .container {
@@ -6,6 +7,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    h2 {
+      color: #fff;
+      margin-bottom: 5rem;
+    }
 
     .social-links {
       a {
