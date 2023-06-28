@@ -313,7 +313,7 @@ section {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 .projects .project-btn {
@@ -331,14 +331,14 @@ section {
 .project-image {
   position: relative;
   transition: transform 0.3s ease-in-out;
+  display: grid;
+  place-content: center;
 }
 .project-image:hover {
   transform: scale(1.05);
 }
 .project-image img {
-  width: 58rem;
-  height: 38rem;
-  object-fit: cover;
+  width: 60rem;
   border-radius: 1rem;
 }
 .project-image--labels {
