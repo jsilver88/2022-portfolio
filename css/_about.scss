@@ -78,8 +78,8 @@
     .skills {
       .bar {
         height: 2.8rem;
-        background-color: #e6f1ff;
-        color: #3c3c3c;
+        background-color: #495670;
+        color: #fff;
         margin-bottom: 1.6rem;
         border-radius: 4px;
         position: relative;
@@ -87,83 +87,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-        &:nth-child(1)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 90%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
-
-        &:nth-child(2)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 90%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
-
-        &:nth-child(3)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 80%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
-
-        &:nth-child(4)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 80%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
-
-        &:nth-child(5)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 80%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
-
-        &:nth-child(6)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 80%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
-
-        &:nth-child(7)::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          width: 70%;
-          height: 100%;
-          background-color: #495670;
-          border-radius: 4px;
-        }
 
         p {
           font-weight: bold;
@@ -175,6 +98,10 @@
         span {
           margin-right: 1rem;
         }
+      }
+
+      .bar-scale {
+        color: #64ffda;
       }
     }
   }

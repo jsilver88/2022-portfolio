@@ -40,6 +40,11 @@ section {
   margin: 0 auto;
 }
 
+.link {
+  color: #64ffda;
+  transition: all 0.5s;
+}
+
 .btn-primary {
   font-size: 1.6rem;
   font-weight: 300;
@@ -91,7 +96,7 @@ section {
 }
 
 .section-heading::after {
-  content: '';
+  content: "";
   height: 1px;
   width: 8rem;
   background-color: #233554;
